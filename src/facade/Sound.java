@@ -1,8 +1,6 @@
-package Facade;
-
+package facade;
 
 public class Sound {
-    
     public void turnOn() {
         System.out.println("Sonido encendido");
     }

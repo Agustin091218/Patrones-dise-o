@@ -1,4 +1,4 @@
-package TemplateMethod;
+package templatemethod;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Main {
         OrderProcessor online = new OnlineOrder();
         online.process();
         
-        System.out.println("procesando pedido en el local");
+        System.out.println("Procesando pedido en el local");
         OrderProcessor local = new LocalOrder();
         local.process();
     }

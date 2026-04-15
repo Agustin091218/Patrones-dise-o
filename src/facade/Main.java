@@ -1,9 +1,8 @@
-package Facade;
+package facade;
 
 public class Main {
     public static void main(String[] args) {
-        FacadeCine cinema = new FacadeCine();
-        
+        MovieTheaterFacade cinema = new MovieTheaterFacade();
         cinema.showMovie();
     }
 }

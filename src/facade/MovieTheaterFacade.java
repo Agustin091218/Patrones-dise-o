@@ -1,11 +1,11 @@
-package Facade;
+package facade;
 
-public class FacadeCine {
+public class MovieTheaterFacade {
     private Lights lights;
     private Sound sound;
     private Projector projector;
     
-    public FacadeCine() {
+    public MovieTheaterFacade() {
         this.lights = new Lights();
         this.sound = new Sound();
         this.projector = new Projector();

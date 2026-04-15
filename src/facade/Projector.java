@@ -1,8 +1,8 @@
-package Facade;
+package facade;
 
 public class Projector {
     public void turnOn() {
-        System.out.println("Proyector encendido");
+        System.out.println("Proyector_encendido");
     }
     
     public void movieMode() {

@@ -1,5 +1,4 @@
-package TemplateMethod;
-
+package templatemethod;
 
 public class OnlineOrder extends OrderProcessor {
     @Override
@@ -11,5 +10,4 @@ public class OnlineOrder extends OrderProcessor {
     protected void deliver() {
         System.out.println("Pedido enviado por correo");
     }
-    
 }

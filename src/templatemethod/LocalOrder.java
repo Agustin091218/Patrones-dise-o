@@ -1,4 +1,4 @@
-package TemplateMethod;
+package templatemethod;
 
 public class LocalOrder extends OrderProcessor {
     @Override
